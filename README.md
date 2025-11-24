@@ -1,6 +1,6 @@
 # 🏐 Volleyball Rotation Efficiency Analysis
 
-This project analyzes rotation-specific performance in volleyball using **both simulated and real match rally-level data**. It focuses on how serving patterns, pass quality, and rotation matchups influence side-out probability and overall scoring efficiency.
+This project analyzes rotation-specific performance in men’s professional volleyball using both simulated and real rally-level data. It focuses on how serving patterns, pass quality, and rotation matchups influence side-out probability and overall scoring efficiency.
 
 ## Objectives
 - Measure **rotation efficiency** across real and simulated matches  
@@ -10,11 +10,13 @@ This project analyzes rotation-specific performance in volleyball using **both s
 - Provide transparent, reproducible code and visualizations
 
 ## Repository Structure
+```
 ├── data/        # Raw and processed match data (real and simulated)
 ├── notebooks/   # Jupyter notebooks for analysis and visualizations
 ├── scripts/     # Python code for preprocessing, simulation, and plotting
 ├── plots/       # Figures generated from analysis
 └── docs/        # Research paper drafts and notes
+```
 
 ## Key Analyses Included
 - Markov chain modeling to simulate match outcomes by rotation
@@ -22,8 +24,7 @@ This project analyzes rotation-specific performance in volleyball using **both s
 - Serve type distribution by rotation  
 - Serve performance metrics (ace%, error%, in-play%)  
 - Pass quality vs rotation  
-- Simulated vs observed serve distributions  
-- Markov chain modeling to simulate match outcomes by rotation
+- Simulated vs observed serve distributions
 
 ## Tools & Technologies
 - Python (pandas, numpy, matplotlib)  
