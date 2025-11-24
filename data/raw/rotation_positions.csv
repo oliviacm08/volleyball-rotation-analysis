@@ -1,0 +1,7 @@
+rotation,zone1,zone6,zone5,zone4,zone3,zone2
+R1,setter,middle1,outside2,opposite,middle2,outside1
+R2,outside1,setter,middle1,outside2,opposite,middle2
+R3,middle2,outside1,setter,middle1,outside2,opposite
+R4,opposite,middle2,outside1,setter,middle1,outside2
+R5,outside2,opposite,middle2,outside1,setter,middle1
+R6,middle1,outside2,opposite,middle2,outside1,setter
