@@ -1,38 +1,36 @@
-# 🏐 Volleyball Rotation Efficiency Analysis
+# Volleyball Rotation Efficiency Analysis
 
-This project analyzes rotation-specific performance in men’s professional volleyball using both simulated and real rally-level data. It focuses on how serving patterns, pass quality, and rotation matchups influence side-out probability and overall scoring efficiency.
+This project investigates rotation-specific performance in **men’s professional volleyball** using both **real and simulated rally-level data**. It focuses on how serving patterns, rotation matchups, and pass quality affect side-out probability and overall scoring efficiency.
 
-## Objectives
-- Measure **rotation efficiency** across real and simulated matches  
-- Analyze **serve type distributions** per rotation and per team  
-- Compare **simulated vs real match** rotation and serve patterns  
-- Evaluate **side-out and pass quality** by rotation  
-- Provide transparent, reproducible code and visualizations
+---
+
+## Project Overview
+
+- Analyze **rotation efficiency** and **serve type distributions** across real and simulated matches  
+- Use **Markov chain modeling** to simulate match outcomes and evaluate strategic serving/rotation choices  
+- Compare simulated vs. real data to validate model performance  
+- Focus on metrics critical to point scoring: rotation efficiency, serve performance (ace%, error%, in-play%), pass quality, and team-specific serve distributions
+
+---
+
+## Tools
+
+- **Python** (pandas, numpy, matplotlib) — main processing, simulation, and plotting  
+- **Jupyter Notebooks** — exploratory analysis (optional; primary workflow in scripts)  
+- **GitHub** — version control and reproducibility  
+
+---
 
 ## Repository Structure
-```
-├── data/        # Raw and processed match data (real and simulated)
-├── notebooks/   # Jupyter notebooks for analysis and visualizations
-├── scripts/     # Python code for preprocessing, simulation, and plotting
-├── plots/       # Figures generated from analysis
-└── docs/        # Research paper drafts and notes
-```
 
-## Key Analyses Included
-- Markov chain modeling to simulate match outcomes by rotation
-- Rotation efficiency (real + simulated)  
-- Serve type distribution by rotation  
-- Serve performance metrics (ace%, error%, in-play%)  
-- Pass quality vs rotation  
-- Simulated vs observed serve distributions
+- **data/** — raw and processed match datasets (real and simulated)  
+- **scripts/** — preprocessing, simulation, and plotting code  
+- **analysis/** — visualizations and analytical outputs (comparison and real-only metrics)  
+- **docs/** — research paper drafts and final version  
 
-## Tools & Technologies
-- Python (pandas, numpy, matplotlib)  
-- Jupyter Notebooks  
-- GitHub for version control and reproducibility  
+All scripts are fully reproducible with the provided data.
 
-## Documentation
-- [Research paper draft (Google Docs)](your_google_doc_link_here)
+---
 
-## Author
+**Author:** 
 Olivia C. M.
