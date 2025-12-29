@@ -1,6 +1,6 @@
 # Docs Directory
 
-This folder contains drafts and final versions of the research paper associated with the Volleyball Rotation Efficiency Analysis project.
+This folder contains the abbreviated and final versions of the research paper associated with the Volleyball Rotation Efficiency Analysis project.
 
 ---
 
